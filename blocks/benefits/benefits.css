@@ -1,0 +1,24 @@
+.benefits {
+    position: relative;
+    background-image: url("./../../images/benefits_banner.png");
+    height: 700px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1190px) {
+    .benefits {
+        background-image: url("./../../images/benefits_banner_tablet.png");
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .benefits {
+        background-image: url("./../../images/benefits_banner_mobile.png");
+        padding-top: 32x;
+        height: 827px;
+        overflow-x: hidden;
+    }
+}

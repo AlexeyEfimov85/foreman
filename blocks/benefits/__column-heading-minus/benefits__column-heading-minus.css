@@ -1,0 +1,15 @@
+.benefits__column-heading-minus {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    margin: 0 0 0 160px;
+}
+
+@media screen and (max-width: 1190px) {
+    .benefits__column-heading-minus {
+        margin: 0 0 0 0px;
+        width: 100px;
+    }
+}

@@ -1,0 +1,23 @@
+.order__image {
+    width: 1178px;
+    height: 387px;
+    margin: 25px auto;
+    background-image: url('../../../images/order_image.png');
+    background-size: contain;
+}
+
+@media screen and (max-width: 1190px) {
+    .order__image {
+        width: 687px;
+        height: 227px;
+        background-image: url('../../../images/order_image_tablet.png');
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .order__image {
+        width: 344px;
+        height: 181px;
+        background-image: url('../../../images/order_image_mobile.png');
+    }
+}

@@ -1,0 +1,8 @@
+.order__list {
+    margin: 0;
+    width: 100%;
+}
+
+.order__list .reasons__item {
+    max-width: 100%;
+}

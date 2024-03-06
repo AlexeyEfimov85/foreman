@@ -1,0 +1,42 @@
+.order__heading {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #353F47;
+    max-width: 300px;
+    position: relative;
+}
+
+.order__heading::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    background-image: url('../../../images/heading_decor.svg');
+    width: 84px;
+    height: 3px;
+}
+
+@media screen and (max-width: 1190px) {
+    .order__heading {
+        font-size: 24px;
+        max-width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 31px;
+        text-align: left;
+    }
+    .order__heading::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        width: 0;
+        height: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .order__heading {
+        font-size: 20px;
+    }
+ 
+}

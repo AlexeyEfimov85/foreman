@@ -1,0 +1,18 @@
+.economy__image {
+    background-image: url("./../../../images/economy__image.png");
+    width: 577px;
+}
+
+@media screen and (max-width: 1190px) {
+    .economy__image {
+        width: 330px;
+        background-image: url("./../../../images/economy__image_tablet.png");
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .economy__image {
+        display: none;
+    }
+}

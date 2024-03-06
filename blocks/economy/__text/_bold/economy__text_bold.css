@@ -1,0 +1,22 @@
+.economy__text_bold {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 1190px) {
+    .economy__text_bold {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .economy__text_bold {
+        display: none;
+    }
+}

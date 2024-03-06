@@ -1,0 +1,28 @@
+.content__green {
+    width: 522px;
+    height: 522px;
+    border-radius: 50%;
+    background-color: #D6E9D5;
+    grid-column: 625/1147;
+    grid-row: 1/522;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1190px) {
+    .content__green {
+        grid-column: 330/auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content__green {
+        margin: -80px auto 0;
+    }
+}
+
+@media screen and (max-width: 523px) {
+    .content__green {
+        margin-left: calc(-100vw * 0.16);
+        margin-top: -80px;
+    }
+}

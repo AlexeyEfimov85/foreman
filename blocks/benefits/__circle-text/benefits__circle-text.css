@@ -1,0 +1,30 @@
+.benefits__circle-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: 1px solid #353f47;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center;
+    color: #1d8119;
+}
+
+@media screen and (max-width: 1190px) {
+    .benefits__circle-text {
+        width: 222px;
+        height: 222px;
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .benefits__circle-text {
+        display: none;
+    }
+}

@@ -1,0 +1,17 @@
+.lead__list {
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 1190px) {
+    .lead__list {
+        display: block;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__list {
+        padding-left: 30px;
+        width: 65%;
+    }
+}

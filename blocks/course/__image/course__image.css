@@ -1,0 +1,23 @@
+.course__image {
+    width: 1178px;
+    height: 457px;
+    background-image: url('../../../images/course_image.png');
+    margin: 0 auto;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1190px) {
+    .course__image {
+        width: 687px;
+        height: 303px;
+        background-image: url('../../../images/course_image_tablet.png');
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .course__image {
+        width: 374px;
+        height: 495px;
+        background-image: url('../../../images/course_image_mobile.png');
+     }
+}

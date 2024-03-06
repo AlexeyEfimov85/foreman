@@ -1,0 +1,31 @@
+.content__gray {
+    width: 357px;
+    height: 357px;
+    border-radius: 50%;
+    background-color: #353f47;
+    grid-column: 685 / auto;
+    grid-row: 352/709;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1190px) {
+    .content__gray {
+        grid-column: 390 / auto;
+        grid-row: 357/714;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .content__gray {
+        margin-top: -170px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 523px) {
+    .content__gray {
+        margin-left: calc(-100vw * 0.04);
+    }
+}

@@ -1,0 +1,15 @@
+.reasons__item {
+    display: flex;
+    max-width: 347px;
+}
+
+.reasons__item:nth-child(1) {
+   max-width: 299px;
+}
+
+@media screen and (max-width: 768px) {
+    .reasons__item {
+        flex-direction: row;
+        width: 353px;
+    }
+}

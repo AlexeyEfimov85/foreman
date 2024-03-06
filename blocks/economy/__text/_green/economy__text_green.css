@@ -1,0 +1,11 @@
+.economy__text_green {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #1D8119;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 4px;
+    margin-top: 16px;
+}
+

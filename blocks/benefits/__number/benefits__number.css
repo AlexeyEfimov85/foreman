@@ -1,0 +1,13 @@
+.benefits__number {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #31912d;
+    text-align: center;
+    padding-top: 11px;
+    box-sizing: border-box;
+}

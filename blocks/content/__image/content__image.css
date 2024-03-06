@@ -1,0 +1,32 @@
+.content__image {
+    width: 709px;
+    height: 709px;
+    border-radius: 50%;
+    background-image: url('../../../images/content_image.png');
+    grid-column: 1/709;
+    grid-row: 63/772;
+    z-index: 3;
+}
+
+
+@media screen and (max-width: 1190px) {
+    .content__image {
+        width: 465px;
+        height: 465px;
+        grid-row: 192/auto;
+        margin-left: calc((-100vw * 0.06));
+        background-image: url('../../../images/content_image_tablet.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content__image {
+        width: 341px;
+        height: 341px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}

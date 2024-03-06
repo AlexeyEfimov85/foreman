@@ -1,0 +1,13 @@
+.benefits__item_minus {
+    display: flex;
+    gap: 37px;
+    margin-right: 160px;
+}
+
+@media screen and (max-width: 1190px) {
+    .benefits__item_minus {
+        gap: 25px;
+        margin-right: 0px;
+        margin-top: -5px;
+    }
+}

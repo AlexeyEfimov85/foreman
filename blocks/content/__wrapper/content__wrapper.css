@@ -1,0 +1,24 @@
+.content__wrapper {
+    width: 1147px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1147, 1px);
+    grid-template-rows: repeat(772, 1px);
+}
+
+@media screen and (max-width: 1190px) {
+    .content__wrapper {
+        width: 100vw;
+        margin: 0 auto;
+        grid-template-columns: repeat(1147, 1px);
+        grid-template-rows: repeat(714, 1px);
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}

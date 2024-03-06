@@ -1,0 +1,12 @@
+.benefits__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .benefits__wrapper {
+        flex-direction: column;
+        gap: 45px;
+    }
+}

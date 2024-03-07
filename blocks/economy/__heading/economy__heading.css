@@ -39,6 +39,7 @@
 @media screen and (max-width: 768px) {
     .economy__heading {
         font-size: 20px;
+        line-height: 26px;
     }
  
 }

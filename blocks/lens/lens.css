@@ -1,12 +1,14 @@
-
-
-.lens::before {
-    content: " ";
-    background-color: #150800C4;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    opacity: 0.77;
+@media screen and (max-width: 768px) {
+    .lens::before {
+        content: " ";
+        background-color: #150800C4;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 0.77;
+    }
 }
+
+

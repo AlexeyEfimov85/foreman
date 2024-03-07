@@ -15,7 +15,8 @@
 
 @media screen and (max-width: 768px) {
     .lead__list-item {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 16px;
+        font-weight: 400;
     }
 }

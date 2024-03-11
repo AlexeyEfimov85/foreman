@@ -1,11 +1,11 @@
 
 .transition, .accordion__list li i:before, .accordion__list li i:after, p {
-    transition: all 0.25s ease-in-out;
+    /* transition: all 0.25s ease-in-out; */
   }
   
   .flipIn, .accordion__list li, h1 {
-    animation: flipdown 0.5s ease both;
-  }
+/*     animation: flipdown 0.5s ease both;
+ */  }
   
   .no-select, h2 {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
